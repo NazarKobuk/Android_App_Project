@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editTitle"
+              android:inputType="text"
+              android:layout_marginStart="24dp"
+              android:layout_marginEnd="24dp"
+              android:hint="@string/contact_group_title"/>
+
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/editDescription"
+              android:inputType="text"
+              android:layout_marginStart="24dp"
+              android:layout_marginEnd="24dp"
+              android:layout_marginTop="16dp"
+              android:hint="@string/contact_group_description"/>
+
+
+    <com.flask.colorpicker.ColorPickerView
+            android:id="@+id/colorPickerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:alphaSlider="false"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="16dp"
+            app:density="12"
+            app:lightnessSlider="true"
+            app:wheelType="FLOWER"
+            app:lightnessSliderView="@+id/v_lightness_slider"
+    />
+
+    <com.flask.colorpicker.slider.LightnessSlider
+            android:id="@+id/v_lightness_slider"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+    />
+
+</LinearLayout>

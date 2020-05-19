@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_contact_group">Add Contact Group</string>
+    <string name="contact_group_title">Title of the contact group</string>
+    <string name="contact_group_description">Contact group description</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_contact_info">Enter contact information</string>
+    <string name="full_name">Full name</string>
+    <string name="phone_number">Phone number</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="email">Email</string>
+    <string name="comments">Comments</string>
+    <string name="save">Save contact</string>
+    <string name="facebook_id">Facebook id</string>
+    <string name="action_call">Call</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_fb">Facebook</string>
+    <string name="action_delete">Delete</string>
+</resources>
