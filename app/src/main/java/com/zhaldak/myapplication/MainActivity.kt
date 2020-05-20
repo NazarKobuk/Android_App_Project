@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 /**
  *
  * The class implements the main screen of the application
+ Is the starting point of run the application
  *
  */
  
